@@ -1,0 +1,17 @@
+common:
+  data_root: MouseSIS-main/data/MouseSIS
+  iou_threshold: 0.15
+  split: test
+  sequence_ids: [10, 16, 22, 26, 28, 32]
+
+gray_detector:
+  yolo_path: MouseSIS-main/models/yolov12_frame_best.pt
+e2vid_detector:
+  yolo_path: MouseSIS-main/models/yolov12x_e2vid_best.pt
+
+tracker:
+  max_age: 2
+  min_hits: 3
+  iou_threshold: 0.15
+
+output_dir: ./output/
