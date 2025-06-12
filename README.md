@@ -1,0 +1,1 @@
+# The Spatio-Temporal Instance Segmentation Challenge 2025
